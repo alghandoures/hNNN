@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+		      content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title> Card Haneen </title>
+		<link rel="stylesheet" href="haneen.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog==" crossorigin="anonymous"></script>
+
+		
+	</head>
+	<body>
+		<div class="blog-post">
+		
+			<div class="blog-post__img">
+				<img src="images/p1.jpg" alt="">
+			</div>
+			
+			<div class="blog-post__info">
+				<div class="blog-post__date">
+					<script type="text/javascript"> 
+						var myDate = new Date(); 
+						var myDay = myDate.getDay();
+												
+						// Array of days. 
+						var weekday = ['Sunday', 'Monday', 'Tuesday', 
+							'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+						];
+						var ar = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+						var month = ar[myDate.getMonth()+1];
+						var date = myDate.getDate()+" - "+month +" - "+myDate.getFullYear();
+						
+						document.write("<span>" + weekday[myDay]+"</span>");
+						document.write("<span>" + date +"</span>");
+						
+						
+					</script>
+				</div>
+				<h1 class="blog-post__title"> Haneen AL- Anzi </h1>
+				<p class="blog-post__text">
+		
+				</p>
+				<div class="blog-post__icon">
+					<ul>
+						
+						<li><a href="https://www.facebook.com/haneen.abdullah.9022" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+						<li><a href="https://api.whatsapp.com/send?phone=962782904570" target="blank"><i class="fab fa-whatsapp-square"></i></a></li>
+						<li><a href="mailto:ha7200792@gmail.com" target="blank"><i class="fas fa-at"></i></a></li>
+						<li><a href="tel:0782904570" target="blank"><i class="fas fa-phone"></i></a></li>
+						<li><a href="https://www.bing.com/maps?v=2&pc=FACEBK&mid=8100&rtp=%7Epos.32.086001563177_36.091310977936_%D9%85%D8%A4%D8%B3%D8%B3%D8%A9+%D8%A7%D9%84%D8%BA%D9%86%D8%AF%D9%88%D8%B1+%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1+%D8%A7%D9%84%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA+%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82+%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A&cp=32.086001563177%7E36.091310977936&lvl=16&sty=r&rtop=0%7E0%7E0%7E&mode=D&FORM=FBKPL6&mkt=en-US" target="blank"><i class="fas fa-map-marker-alt"></i></a></li>
+					</ul>
+			
+		</div>
+	</body>
+</html>
